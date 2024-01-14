@@ -1,4 +1,4 @@
-# Zomato_India
+# Zomato India
 This project analyzes the Zomato restaurants in India dataset
 
 **Overview**
