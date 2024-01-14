@@ -12,7 +12,7 @@ name: Restaurant Name
 establishment: Type of establishment
 url: Zomato URL of the restaurant
 address: Address of the restaurant
-city: City where the restaurant is located
+City: City where the restaurant is located
 locality: Locality of the restaurant
 latitude and longitude: Geographical coordinates
 aggregate_rating: Aggregate rating of the restaurant
@@ -28,22 +28,27 @@ Data Loading and Inspection: The script starts by uploading the dataset and insp
 
 Outliers in aggregate_rating and price_range are removed using the Interquartile Range (IQR) method.
 Irrelevant columns like zipcode and timings are dropped.
+
 **Data Visualization:**
 
 Histograms and count plots are created to visualize the distribution of aggregate_rating and price_range.
 A count plot is used to show the distribution of the top 10 cuisines.
+
 **Statistical Analysis:**
 
 Descriptive statistics are calculated for numerical and categorical data.
 Further analysis includes calculating range, skewness, and kurtosis for select columns.
 A correlation heatmap is plotted to understand the relationships between different numerical features.
+
 **City-wise Analysis:**
 
 A detailed analysis of top cities is conducted, including the distribution of restaurant types, popular cuisines, average ratings, and customer engagement metrics.
+
 **Region-wise Visualization:**
 
 A bar plot is created to display the top 10 regions with the most restaurants.
-Usage
+
+****Usage****
 **To use this script:**
 
 Ensure you have Python installed along with Pandas, Seaborn, and Matplotlib libraries.
