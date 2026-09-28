@@ -1,6 +1,8 @@
 # Zomato India
 This project analyzes the Zomato restaurants in India dataset
 
+<img width="933" height="778" alt="image" src="https://github.com/user-attachments/assets/63956480-4c0d-4daa-bfad-e9bf73b3655c" />
+
 **Overview**
 This project analyzes the zomato_restaurants_in_India.csv dataset. The dataset includes various features of restaurants such as restaurant ID, name, establishment type, location, ratings, price range, and more. The analysis includes data cleaning, visualization, and statistical analysis to derive insights about the restaurants listed on Zomato in India.
 
